@@ -1,0 +1,51 @@
+.errorContainer{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .message{
+    font-family: DM Serif Display;
+
+    h1 {
+      font-size: 5.5rem;
+      line-height: 5rem;
+      font-weight: bold;
+      margin-top: 2.5rem;
+      font-style: normal;
+      color: var(--red-500);
+    }
+
+    p{
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: bold;
+      margin: 1.5rem 0;
+    }
+
+    button{
+      height: 3rem;
+      border-radius: 3rem;
+      width: 240px;
+      background-color: var(--space-cyan-800);
+
+      border: 0;
+      padding: 0 1.5rem;
+
+      color: var(--white);
+      font-weight: bold;
+      font-size:1.125rem;
+
+      transition: filter 0.2s;
+      &:hover{
+        filter: brightness(0.8);
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  width: 1536px;
+  margin: 0 auto;
+
+    :not(:first-child){
+      margin-top: 2rem;
+    }
+
+}
+
+
+
+// 2xl
+@media (max-width: 1535px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+// xl
+@media (max-width: 1279px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+// lg
+@media (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+// md
+@media (max-width: 767px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+// sm
+@media (max-width: 639px) {
+  .container {
+    width: 100%;
+  }
+}
